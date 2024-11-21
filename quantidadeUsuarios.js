@@ -48,9 +48,9 @@ async function quantidadeUsuariosPorRede() {
                 text: 'bilhões de usuários ativos',
                 font: {
                     color: getCSS('--secondary-color')
+                }
+            }
         }
-        
-    }
 
     const grafico = document.createElement('div')
     grafico.className = 'grafico'
